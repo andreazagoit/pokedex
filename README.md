@@ -1,3 +1,7 @@
+# GITHUB
+
+https://github.com/andreazagoit/pokedex
+
 # Assignment for Frontend Position
 
 In Satispay one of the main task for a frontend developer is to build useful interfaces in order to display, search and interact with data.
