@@ -4,7 +4,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { client } from "./graphql/client";
 import HomePage from "./pages/HomePage";
-import PageTemplate from "./templates/PageTemplate";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -13,9 +12,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
-      <PageTemplate>
-        <HomePage />
-      </PageTemplate>
+      <HomePage />
     </ApolloProvider>
   </React.StrictMode>
 );
